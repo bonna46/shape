@@ -1,0 +1,17 @@
+import java.util.Scanner;
+public class cube extends tri{
+public int ca;
+	public void ccube()
+	  {
+		 System.out.println("cube:  1 input \n");
+		 Scanner sc=new Scanner(System.in);
+		  ca=sc.nextInt();
+		  double d=(3*ca*ca);
+		  System.out.println("answer: "+d);
+	  }
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
