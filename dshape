@@ -1,0 +1,52 @@
+import java.util.Scanner;
+
+public class dshape extends quad {
+
+	public  void d1shape(int... n)
+	  {
+		 Scanner sc=new Scanner(System.in);
+		  int i=0,cc=0;
+		  for(int a: n)
+		  {
+			  cc+=a;
+			  i=i+1;
+		  }
+		  if(i==2)
+		  {
+			  System.out.println("press 1 for quadrilateral and 2 for sphere\n");
+			 
+			  int cal5=sc.nextInt();
+			  if(cal5==1)
+			  {
+				  quad q=new quad();
+				 q.qquad();
+			  }
+			  else
+			  {
+				  spr q=new spr();
+				  q.sspr();
+			  }
+		  }
+		  else
+		  {
+			  System.out.println("press 1 for triangle and 2 for cube \n");
+			  int cal3=sc.nextInt();
+			  if(cal3==1)
+			  {
+				  tri q=new tri();
+				  q.ttri();
+			  }
+			  else
+			  {
+				  cube q=new cube();
+				  q.ccube();
+			  }
+				  
+			  }
+		  }
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
