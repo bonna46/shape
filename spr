@@ -1,0 +1,17 @@
+import java.util.Scanner;
+public class spr extends cube {
+public int cal7;
+	public void sspr()
+	  {
+		 System.out.println("sphere: 1 input \n");
+		 Scanner sc=new Scanner(System.in);
+		  cal7=sc.nextInt();
+		  double p=(3.1416*cal7*cal7);
+			System.out.println("answer: "+p);
+	  }
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
