@@ -1,0 +1,19 @@
+import java.util.Scanner;
+public class tri {
+	public int cal1,cal2;
+	public void ttri()
+	  {
+		 System.out.println("triangle: 2 inputs \n");
+		 Scanner sc=new Scanner(System.in);
+		 cal1=sc.nextInt();
+		 cal2=sc.nextInt();
+		  double p=(0.5*cal1*cal2);
+			System.out.println("answer: "+p);
+	  }
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
