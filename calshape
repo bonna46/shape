@@ -1,0 +1,68 @@
+import java.util.Scanner;
+
+
+public class calshape extends dshape{
+
+  public int a,b,c,n;
+	public void cal1shape(int... n)
+	  {
+		 int i=0,cc=0;
+		  for(int a1: n)
+		  {
+			  cc+=a1;
+			  i=i+1;
+		  }
+		  if(i==3)
+		  { 
+			  for(int a1: n)
+			  {
+				  i=i+1;
+				  if(i==1)
+					  a=a1;
+				  if(i==2)
+					  b=a1;
+				  else
+					  c=a1;
+			  }
+			 
+		  }
+		  if(i==2)
+		  { 
+			  for(int a1: n)
+			  {
+				  i=i+1;
+				  if(i==1)
+					  a=a1;
+				  if(i==2)
+					  b=a1;
+			  } 
+		  }
+		  Scanner sc=new Scanner(System.in);
+		  
+		  System.out.println("how many inputs: \n");
+		  int cal3=sc.nextInt();
+		  System.out.println("give inputs: \n");
+		  if(cal3==3)
+		  {
+			  int cal1=sc.nextInt();
+			  int cal2=sc.nextInt();
+			  int cal4=sc.nextInt();
+			  dshape s=new dshape();
+				 s.d1shape(cal1,cal2,cal4);
+		  }
+		  else
+		  {
+			  int cal1=sc.nextInt();
+			  int cal2=sc.nextInt();
+			  dshape s=new dshape();
+				 s.d1shape(cal1,cal2);
+		  }
+			  
+			 
+	  }
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
