@@ -1,0 +1,19 @@
+import java.util.Scanner;
+public class quad extends spr{
+	public int cal1,cal2;
+	public void qquad()
+	  {
+		 System.out.println("quadrilateral: 2 inputs \n");
+		 Scanner sc=new Scanner(System.in);
+		  cal1=sc.nextInt();
+		 cal2=sc.nextInt();
+		   double d=(cal1*cal2);
+		   System.out.println("answer: "+d);
+	  }
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
