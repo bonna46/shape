@@ -1,0 +1,24 @@
+import java.util.Scanner;
+public class Shape extends calshape{
+	
+	public static void main(String[] args) {
+		
+		 Scanner sc=new Scanner(System.in);
+	      System.out.println("Shape: press 2 for 2D,3 for 3D \n");
+	      int cal=sc.nextInt();
+	      if(cal==2)
+	      {
+	    	    System.out.println("2D :\n");  
+	    	    calshape s=new calshape();
+			      s.cal1shape(cal);
+	      }
+	      else if(cal==3)
+	      {
+	    	  System.out.println("3D :\n");  
+	    	  calshape s=new calshape();
+		      s.cal1shape(cal);
+	      }
+
+	}
+
+}
